@@ -1,0 +1,531 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ME2188:ME2188A50XG U?
+U 1 1 6174A4C9
+P 2750 1500
+F 0 "U?" H 2750 1915 50  0000 C CNN
+F 1 "ME2188A50XG" H 2750 1824 50  0000 C CNN
+F 2 "" H 2750 2000 50  0001 C CNN
+F 3 "" H 2750 2000 50  0001 C CNN
+	1    2750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 6174AC13
+P 1950 1400
+F 0 "L?" H 1950 1615 50  0000 C CNN
+F 1 "22uH" H 1950 1524 50  0000 C CNN
+F 2 "" H 1950 1400 50  0001 C CNN
+F 3 "~" H 1950 1400 50  0001 C CNN
+	1    1950 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1400 2350 1400
+$Comp
+L power:GND #PWR?
+U 1 1 6174B335
+P 2750 2000
+F 0 "#PWR?" H 2750 1750 50  0001 C CNN
+F 1 "GND" H 2755 1827 50  0000 C CNN
+F 2 "" H 2750 2000 50  0001 C CNN
+F 3 "" H 2750 2000 50  0001 C CNN
+	1    2750 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6174BB29
+P 1475 1725
+F 0 "C?" H 1590 1771 50  0000 L CNN
+F 1 "10uF" H 1590 1680 50  0000 L CNN
+F 2 "" H 1513 1575 50  0001 C CNN
+F 3 "~" H 1475 1725 50  0001 C CNN
+	1    1475 1725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1475 1575 1475 1400
+Wire Wire Line
+	1475 1400 1700 1400
+Wire Wire Line
+	1475 2000 1475 1875
+$Comp
+L power:GND #PWR?
+U 1 1 6174C089
+P 1475 2000
+F 0 "#PWR?" H 1475 1750 50  0001 C CNN
+F 1 "GND" H 1480 1827 50  0000 C CNN
+F 2 "" H 1475 2000 50  0001 C CNN
+F 3 "" H 1475 2000 50  0001 C CNN
+	1    1475 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1825 2750 2000
+Wire Wire Line
+	1475 1400 1200 1400
+Connection ~ 1475 1400
+Text Label 1200 1400 2    50   ~ 0
+VIN
+$Comp
+L Device:C C?
+U 1 1 6174D112
+P 3475 1725
+F 0 "C?" H 3590 1771 50  0000 L CNN
+F 1 "100uF" H 3590 1680 50  0000 L CNN
+F 2 "" H 3513 1575 50  0001 C CNN
+F 3 "~" H 3475 1725 50  0001 C CNN
+	1    3475 1725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1400 3475 1400
+Wire Wire Line
+	3475 1400 3475 1575
+Wire Wire Line
+	3475 2000 3475 1875
+$Comp
+L power:GND #PWR?
+U 1 1 6174E073
+P 3475 2000
+F 0 "#PWR?" H 3475 1750 50  0001 C CNN
+F 1 "GND" H 3480 1827 50  0000 C CNN
+F 2 "" H 3475 2000 50  0001 C CNN
+F 3 "" H 3475 2000 50  0001 C CNN
+	1    3475 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 1400 3850 1400
+Connection ~ 3475 1400
+Text Label 3850 1400 0    50   ~ 0
+5V
+Text Notes 1775 925  0    50   ~ 0
+\nDC-DC converter input 1.8-5V, output 5V\nLCSC Part# C236769
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 617588B6
+P 8450 1425
+F 0 "J?" H 8530 1417 50  0000 L CNN
+F 1 "Conn_01x04" H 8530 1326 50  0000 L CNN
+F 2 "" H 8450 1425 50  0001 C CNN
+F 3 "~" H 8450 1425 50  0001 C CNN
+	1    8450 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 617591D1
+P 10050 1425
+F 0 "J?" H 10130 1417 50  0000 L CNN
+F 1 "Conn_01x04" H 10130 1326 50  0000 L CNN
+F 2 "" H 10050 1425 50  0001 C CNN
+F 3 "~" H 10050 1425 50  0001 C CNN
+	1    10050 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1325 8025 1325
+Wire Wire Line
+	8250 1425 8025 1425
+Wire Wire Line
+	8250 1525 8025 1525
+Wire Wire Line
+	8250 1625 8025 1625
+Text Label 8025 1325 2    50   ~ 0
+GND
+Text Label 8025 1425 2    50   ~ 0
+VIN
+Text Label 8025 1525 2    50   ~ 0
+SDA_VIN
+Text Label 8025 1625 2    50   ~ 0
+SCL_VIN
+Wire Wire Line
+	9850 1325 9625 1325
+Wire Wire Line
+	9850 1425 9625 1425
+Wire Wire Line
+	9850 1525 9625 1525
+Wire Wire Line
+	9850 1625 9625 1625
+Text Label 9625 1325 2    50   ~ 0
+GND
+Text Label 9625 1425 2    50   ~ 0
+VIN
+Text Label 9625 1525 2    50   ~ 0
+SDA_VIN
+Text Label 9625 1625 2    50   ~ 0
+SCL_VIN
+$Comp
+L Potentiometer_Digital:MCP4018-xxxxLT U?
+U 1 1 6175D2CA
+P 1850 4575
+F 0 "U?" H 1850 5050 50  0000 C CNN
+F 1 "MCP4018-xxxxLT" H 2125 4950 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1900 4325 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22147a.pdf" H 1900 4025 50  0001 L CNN
+	1    1850 4575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 4175 1750 4000
+Text Label 1750 4000 1    50   ~ 0
+5V
+Wire Wire Line
+	1850 5000 1850 4875
+$Comp
+L power:GND #PWR?
+U 1 1 6175F273
+P 1850 5000
+F 0 "#PWR?" H 1850 4750 50  0001 C CNN
+F 1 "GND" H 1855 4827 50  0000 C CNN
+F 2 "" H 1850 5000 50  0001 C CNN
+F 3 "" H 1850 5000 50  0001 C CNN
+	1    1850 5000
+	1    0    0    -1  
+$EndComp
+Text Notes 8250 1025 0    50   ~ 0
+Stemma QT / qwiic  connectors\nLCSC#  C145956
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 61765AC4
+P 9100 5000
+F 0 "Q?" V 9349 5000 50  0000 C CNN
+F 1 "BSS138" V 9440 5000 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9300 4925 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 9100 5000 50  0001 L CNN
+	1    9100 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 61767FC9
+P 8600 4400
+F 0 "Q?" V 8849 4400 50  0000 C CNN
+F 1 "BSS138" V 8940 4400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8800 4325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 8600 4400 50  0001 L CNN
+	1    8600 4400
+	0    1    1    0   
+$EndComp
+Text Notes 8525 3550 0    50   ~ 0
+i2c level shifters\nBSS138 LCSC# C78284
+$Comp
+L Device:R R?
+U 1 1 61771F4B
+P 8000 4175
+F 0 "R?" H 8070 4221 50  0000 L CNN
+F 1 "10k" H 8070 4130 50  0000 L CNN
+F 2 "" V 7930 4175 50  0001 C CNN
+F 3 "~" H 8000 4175 50  0001 C CNN
+	1    8000 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61772E16
+P 7675 4175
+F 0 "R?" H 7745 4221 50  0000 L CNN
+F 1 "10k" H 7745 4130 50  0000 L CNN
+F 2 "" V 7605 4175 50  0001 C CNN
+F 3 "~" H 7675 4175 50  0001 C CNN
+	1    7675 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61773986
+P 9900 4175
+F 0 "R?" H 9970 4221 50  0000 L CNN
+F 1 "10k" H 9970 4130 50  0000 L CNN
+F 2 "" V 9830 4175 50  0001 C CNN
+F 3 "~" H 9900 4175 50  0001 C CNN
+	1    9900 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61773B5E
+P 9575 4175
+F 0 "R?" H 9645 4221 50  0000 L CNN
+F 1 "10k" H 9645 4130 50  0000 L CNN
+F 2 "" V 9505 4175 50  0001 C CNN
+F 3 "~" H 9575 4175 50  0001 C CNN
+	1    9575 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 4325 8000 5100
+Wire Wire Line
+	8000 5100 8900 5100
+Wire Wire Line
+	7675 4325 7675 4500
+Wire Wire Line
+	7675 4500 8400 4500
+Wire Wire Line
+	8000 5100 7275 5100
+Connection ~ 8000 5100
+Wire Wire Line
+	7675 4500 7275 4500
+Connection ~ 7675 4500
+Wire Wire Line
+	9300 5100 9575 5100
+Wire Wire Line
+	9575 5100 9575 4325
+Wire Wire Line
+	8800 4500 9900 4500
+Wire Wire Line
+	9900 4500 9900 4325
+Wire Wire Line
+	9900 4500 10325 4500
+Connection ~ 9900 4500
+Wire Wire Line
+	9575 5100 10325 5100
+Connection ~ 9575 5100
+Wire Wire Line
+	9575 4025 9575 3825
+Wire Wire Line
+	8000 3825 8000 4025
+Wire Wire Line
+	7675 3825 7675 4025
+Wire Wire Line
+	9900 4025 9900 3825
+Wire Wire Line
+	9575 3825 9900 3825
+Wire Wire Line
+	9900 3825 9900 3600
+Connection ~ 9900 3825
+Text Label 9900 3600 2    50   ~ 0
+5V
+Wire Wire Line
+	7675 3825 8000 3825
+Wire Wire Line
+	8000 3825 8600 3825
+Wire Wire Line
+	8600 3825 8600 4200
+Connection ~ 8000 3825
+Wire Wire Line
+	8600 3825 9100 3825
+Wire Wire Line
+	9100 3825 9100 4800
+Connection ~ 8600 3825
+Wire Wire Line
+	7675 3825 7675 3600
+Connection ~ 7675 3825
+Text Label 7675 3600 1    50   ~ 0
+VIN
+Text Label 7275 4500 2    50   ~ 0
+SDA_VIN
+Text Label 7275 5100 2    50   ~ 0
+SCL_VIN
+Text Label 10325 4500 0    50   ~ 0
+SDA_5V
+Text Label 10325 5100 0    50   ~ 0
+SCL_5V
+Wire Wire Line
+	1450 4575 1200 4575
+Wire Wire Line
+	1450 4675 1200 4675
+Text Label 1200 4575 2    50   ~ 0
+SCL_5V
+Text Label 1200 4675 2    50   ~ 0
+SDA_5V
+Text Notes 1525 3625 0    50   ~ 0
+MCP4018T-503E/LT\nLCSC# C145561
+$Comp
+L Amplifier_Operational:LMV321 U?
+U 1 1 617B3880
+P 3675 4575
+F 0 "U?" H 4019 4621 50  0000 L CNN
+F 1 "LMV321" H 4019 4530 50  0000 L CNN
+F 2 "" H 3675 4575 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 3675 4575 50  0001 C CNN
+	1    3675 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 617B515A
+P 2650 4375
+F 0 "R?" V 2443 4375 50  0000 C CNN
+F 1 "45.3k" V 2534 4375 50  0000 C CNN
+F 2 "" V 2580 4375 50  0001 C CNN
+F 3 "~" H 2650 4375 50  0001 C CNN
+	1    2650 4375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 4375 2500 4375
+Wire Wire Line
+	2800 4375 2925 4375
+Wire Wire Line
+	2925 4000 2925 4375
+Text Label 2925 4000 1    50   ~ 0
+5V
+Wire Wire Line
+	2250 4475 3375 4475
+Wire Wire Line
+	3575 4275 3575 4000
+Text Label 3575 4000 1    50   ~ 0
+5V
+Text Notes 2850 3650 0    50   ~ 0
+45.3k  1% 0603 resistor C23058\n24.9    1% 0603  resistor C403105 
+$Comp
+L Device:LED_ALT D?
+U 1 1 617C0FF2
+P 4875 4050
+F 0 "D?" V 4914 3932 50  0000 R CNN
+F 1 "LED_ALT" V 4823 3932 50  0000 R CNN
+F 2 "" H 4875 4050 50  0001 C CNN
+F 3 "~" H 4875 4050 50  0001 C CNN
+	1    4875 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q?
+U 1 1 617C2C7F
+P 4775 4575
+F 0 "Q?" H 4966 4621 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 4966 4530 50  0000 L CNN
+F 2 "" H 4975 4675 50  0001 C CNN
+F 3 "~" H 4775 4575 50  0001 C CNN
+	1    4775 4575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3975 4575 4575 4575
+$Comp
+L Device:R R?
+U 1 1 617C7054
+P 4875 5125
+F 0 "R?" H 4945 5171 50  0000 L CNN
+F 1 "24.9" H 4945 5080 50  0000 L CNN
+F 2 "" V 4805 5125 50  0001 C CNN
+F 3 "~" H 4875 5125 50  0001 C CNN
+	1    4875 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 617BDEF2
+P 3575 5000
+F 0 "#PWR?" H 3575 4750 50  0001 C CNN
+F 1 "GND" H 3580 4827 50  0000 C CNN
+F 2 "" H 3575 5000 50  0001 C CNN
+F 3 "" H 3575 5000 50  0001 C CNN
+	1    3575 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3575 5000 3575 4875
+$Comp
+L power:GND #PWR?
+U 1 1 617C9AE1
+P 4875 5400
+F 0 "#PWR?" H 4875 5150 50  0001 C CNN
+F 1 "GND" H 4880 5227 50  0000 C CNN
+F 2 "" H 4875 5400 50  0001 C CNN
+F 3 "" H 4875 5400 50  0001 C CNN
+	1    4875 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4875 5400 4875 5275
+Wire Wire Line
+	3225 4675 3375 4675
+Wire Wire Line
+	4875 4775 4875 4875
+Wire Wire Line
+	3225 5400 4300 5400
+Wire Wire Line
+	4300 5400 4300 4875
+Wire Wire Line
+	4300 4875 4875 4875
+Wire Wire Line
+	3225 4675 3225 5400
+Connection ~ 4875 4875
+Wire Wire Line
+	4875 4875 4875 4975
+Wire Wire Line
+	4875 4200 4875 4375
+Wire Wire Line
+	4875 3900 4875 3625
+Text Label 4875 3625 1    50   ~ 0
+5V
+Text Notes 3650 4900 0    50   ~ 0
+LMV321IDBVR\nLCSC#: C7972
+Text Notes 5500 4675 0    50   ~ 0
+Sikor S8050\nC444723
+$Comp
+L Device:C C?
+U 1 1 617EFAB2
+P 1875 5900
+F 0 "C?" H 1990 5946 50  0000 L CNN
+F 1 "0.1uF" H 1990 5855 50  0000 L CNN
+F 2 "" H 1913 5750 50  0001 C CNN
+F 3 "~" H 1875 5900 50  0001 C CNN
+	1    1875 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 617F0FE6
+P 2650 5900
+F 0 "C?" H 2765 5946 50  0000 L CNN
+F 1 "0.1uF" H 2765 5855 50  0000 L CNN
+F 2 "" H 2688 5750 50  0001 C CNN
+F 3 "~" H 2650 5900 50  0001 C CNN
+	1    2650 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1875 5750 1875 5575
+Text Label 1875 5575 1    50   ~ 0
+5V
+Wire Wire Line
+	2650 5750 2650 5575
+Text Label 2650 5575 1    50   ~ 0
+5V
+Wire Wire Line
+	1875 6175 1875 6050
+$Comp
+L power:GND #PWR?
+U 1 1 617FDA2D
+P 1875 6175
+F 0 "#PWR?" H 1875 5925 50  0001 C CNN
+F 1 "GND" H 1880 6002 50  0000 C CNN
+F 2 "" H 1875 6175 50  0001 C CNN
+F 3 "" H 1875 6175 50  0001 C CNN
+	1    1875 6175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 6175 2650 6050
+$Comp
+L power:GND #PWR?
+U 1 1 618001D5
+P 2650 6175
+F 0 "#PWR?" H 2650 5925 50  0001 C CNN
+F 1 "GND" H 2655 6002 50  0000 C CNN
+F 2 "" H 2650 6175 50  0001 C CNN
+F 3 "" H 2650 6175 50  0001 C CNN
+	1    2650 6175
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
