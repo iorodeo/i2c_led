@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/wbd/work/products/i2c_led/i2c_led.sch)
-    (date "Tue 26 Oct 2021 10:42:24 AM PDT")
+    (date "Tue 02 Nov 2021 08:07:58 AM PDT")
     (tool "Eeschema 5.1.7-a382d34a8~87~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -102,7 +102,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 617B3880))
     (comp (ref R1)
-      (value 45.3k)
+      (value 47k)
       (datasheet ~)
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
@@ -120,7 +120,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 617C2C7F))
     (comp (ref R2)
-      (value 24.9)
+      (value 27k)
       (datasheet ~)
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
