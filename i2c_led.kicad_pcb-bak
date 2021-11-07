@@ -347,7 +347,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5F68FEF1) (tstamp 618729D2)
-    (at 62.7 58.89)
+    (at 19.345001 55.485001)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags LED)
     (path /617C0FF2)
@@ -355,7 +355,7 @@
     (fp_text reference D1 (at 0 -1.43) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED_ALT (at 0 1.43) (layer F.Fab) hide
+    (fp_text value LED_ALT (at 0 1.43) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.48 0.73) (end -1.48 0.73) (layer F.CrtYd) (width 0.05))
@@ -390,7 +390,7 @@
     (fp_text reference J1 (at 0 3.575 90) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value Conn_01x04 (at 0.025 -4.95 90) (layer F.Fab) hide
+    (fp_text value Conn_01x04 (at 0.025 -4.95 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 3 -2.175) (end 3 2.175) (layer F.SilkS) (width 0.15))
@@ -416,7 +416,7 @@
     (fp_text reference J2 (at 0 3.575 90) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value Conn_01x04 (at 0.025 -4.95 90) (layer F.Fab) hide
+    (fp_text value Conn_01x04 (at 0.025 -4.95 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3 2.175) (end 0 2.175) (layer F.SilkS) (width 0.15))
