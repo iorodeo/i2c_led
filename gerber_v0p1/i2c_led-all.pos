@@ -1,24 +1,26 @@
-### Module positions - created on Sun Nov  7 17:52:37 2021 ###
+### Module positions - created on Mon Nov  8 07:30:48 2021 ###
 ### Printed by Pcbnew version kicad 5.1.7-a382d34a8~87~ubuntu18.04.1
 ## Unit = mm, Angle = deg.
 ## Side : All
-# Ref     Val             Package                   PosX       PosY       Rot  Side
-C1        10uF            C_0402_1005Metric      62.4500   -54.6000    0.0000  top
-C2        0.1uF           C_0402_1005Metric      59.9500   -66.8300  270.0000  top
-C3        0.1uF           C_0402_1005Metric      65.4500   -67.4500   90.0000  top
-C4        100uF           C_0805_2012Metric      67.7000   -56.5000  180.0000  top
-D1        LED_ALT         LED_0603_1608Metric    62.7000   -60.0000   90.0000  top
-L1        22uH            L_1206_3216Metric      62.4000   -52.4500    0.0000  top
-Q1        Q_NPN_BEC       SOT-23                 67.7000   -62.1000  180.0000  top
-Q2        BSS138          SOT-23                 57.6000   -52.9500  270.0000  top
-Q3        BSS138          SOT-23                 57.2500   -65.7000  270.0000  top
-R1        47k             R_0402_1005Metric      61.9500   -64.9000    0.0000  top
-R2        27k             R_0402_1005Metric      69.0000   -64.8000    0.0000  top
-R3        10k             R_0402_1005Metric      57.1000   -61.7000  180.0000  top
-R4        10k             R_0402_1005Metric      57.1000   -63.0000  180.0000  top
-R5        10k             R_0402_1005Metric      57.8000   -68.4000  180.0000  top
-R6        10k             R_0402_1005Metric      58.6500   -56.0000  180.0000  top
-U1        MCP4018-xxxxLT  SOT-363_SC-70-6        62.4000   -67.0500    0.0000  top
-U2        ME2188A50XG     SOT-23                 67.7000   -52.9500   90.0000  top
-U3        LMV321          SOT-23-5               68.0000   -67.3500  180.0000  top
+# Ref     Val             Package                      PosX       PosY       Rot  Side
+C1        10uF            C_0402_1005Metric         62.4500   -54.6000    0.0000  top
+C2        0.1uF           C_0402_1005Metric         59.9500   -66.8300  270.0000  top
+C3        0.1uF           C_0402_1005Metric         65.4500   -67.4500   90.0000  top
+C4        100uF           C_0805_2012Metric         67.7000   -56.5000  180.0000  top
+D1        LED_ALT         LED_0603_1608Metric       62.7000   -60.0000   90.0000  top
+J1        Conn_01x04      BOOMELE_SMD_SH_4PIN_RT    52.3000   -60.0000  270.0000  top
+J2        Conn_01x04      BOOMELE_SMD_SH_4PIN_RT    73.1000   -60.0000   90.0000  top
+L1        22uH            L_1206_3216Metric         62.4000   -52.4500    0.0000  top
+Q1        Q_NPN_BEC       SOT-23                    67.7000   -62.1000  180.0000  top
+Q2        BSS138          SOT-23                    57.6000   -52.9500  270.0000  top
+Q3        BSS138          SOT-23                    57.2500   -65.7000  270.0000  top
+R1        47k             R_0402_1005Metric         61.9500   -64.9000    0.0000  top
+R2        27k             R_0402_1005Metric         69.0000   -64.8000    0.0000  top
+R3        10k             R_0402_1005Metric         57.1000   -61.7000  180.0000  top
+R4        10k             R_0402_1005Metric         57.1000   -63.0000  180.0000  top
+R5        10k             R_0402_1005Metric         57.8000   -68.4000  180.0000  top
+R6        10k             R_0402_1005Metric         58.6500   -56.0000  180.0000  top
+U1        MCP4018-xxxxLT  SOT-363_SC-70-6           62.4000   -67.0500    0.0000  top
+U2        ME2188A50XG     SOT-23                    67.7000   -52.9500   90.0000  top
+U3        LMV321          SOT-23-5                  68.0000   -67.3500  180.0000  top
 ## End
