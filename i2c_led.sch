@@ -116,8 +116,6 @@ Wire Wire Line
 Connection ~ 3475 1400
 Text Label 3850 1400 0    50   ~ 0
 5V
-Text Notes 1775 925  0    50   ~ 0
-\nDC-DC converter input 1.8-5V, output 5V\nLCSC Part# C236769
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 617588B6
@@ -571,4 +569,10 @@ F 3 "" H 6625 7100 50  0001 C CNN
 	1    6625 7100
 	1    0    0    -1  
 $EndComp
+Text Notes 1775 925  0    50   ~ 0
+\nDC-DC converter input 1.8-5V, output 5V\nLCSC Part# C236769\n
+Text Notes 2000 2425 0    50   ~ 10
+PIN Error  pins 2 and 3 swapped!
+Text Notes 3200 5700 0    50   ~ 10
+Error:  bias resistors incorrect
 $EndSCHEMATC

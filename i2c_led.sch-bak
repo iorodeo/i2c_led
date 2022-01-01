@@ -117,7 +117,7 @@ Connection ~ 3475 1400
 Text Label 3850 1400 0    50   ~ 0
 5V
 Text Notes 1775 925  0    50   ~ 0
-\nDC-DC converter input 1.8-5V, output 5V\nLCSC Part# C236769
+\nDC-DC converter input 1.8-5V, output 5V\nLCSC Part# C236769\n\nPIN Error  pins 2 and 3 swapped!
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 617588B6
